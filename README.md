@@ -5,7 +5,7 @@ The initial goal of the work was to make a solution that allows you to call the 
 For example, I have prepared four keras models in the way described in the publication https://www.mql5.com/ru/articles/8502, and an advisor configured to work with them. The Advisor is a redesigned PythonOptimizExpert advisor from this publication. The rework is that my ADVISOR uses a call to the predict method of a remote model instead of using data obtained from the same model by reading a file.
 Along the way, I discovered and fixed an error in MQL-ZMQ that did not allow the solution to work in MT5. The error is contained in the file Include\Mql\Lang\Native.mqh. The corrected file is located in my project at the relative path Include\Mql\Lang\Native.mqh.
 
-Description of the files.testing parameters
+Description of the files:
 1.  server_ZMQ_tf.py – ZMQ_RPC server
 2.  MethodHandler.py – ZMQ_RPC server module
 3.  net1Max.h5 - keras model for server operation
