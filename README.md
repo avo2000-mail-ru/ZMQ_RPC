@@ -20,7 +20,7 @@ Description of the files:
 12. PythonOptimizExpert_zmq.ex4 - Expert Advisor executable for MT4
 13. PythonOptimizExpert_zmq.mq5 - the source file of the Expert Advisor for MT5
 14. PythonOptimizExpert_zmq.mq4 - source file of the Expert Advisor for MT4
-14. Include\Mql\Lang\Native.mqh – corrected MQL-ZMQ file
+14. Include/Mql/Lang/Native.mqh – corrected MQL-ZMQ file
 
 HOWTO
 1. Download and install Python version >= 3.8 (the specified version is needed for tensorflow 2.X)
