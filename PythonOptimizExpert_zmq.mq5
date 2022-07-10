@@ -1,5 +1,7 @@
 ﻿//+------------------------------------------------------------------+
 //|                                      PythonOptimizExpert_zmq.mq5 |
+//|                                   Copyright 2020, Andrey Dibrov. |
+//|                           https://www.mql5.com/ru/users/tomcat66 |
 //|                                   Copyright 2022 Aleksandr Orlov |
 //|                                                  avo2000@mail.ru |
 //|                                     created: 2022-06-09 16:53:29 |
