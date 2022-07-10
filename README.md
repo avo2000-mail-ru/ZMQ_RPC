@@ -6,20 +6,20 @@ For example, I have prepared four keras models in the way described in the publi
 Along the way, I discovered and fixed an error in MQL-ZMQ that did not allow the solution to work in MT5. The error is contained in the file Include\Mql\Lang\Native.mqh. The corrected file is located in my project at the relative path Include\Mql\Lang\Native.mqh.
 
 Description of the files.testing parameters
-server_ZMQ_tf.py – ZMQ_RPC server
-MethodHandler.py – ZMQ_RPC server module
-net1Max.h5 - keras model for server operation
-net1Min.h5 - keras model for server operation
-net2Max.h5 - keras model for server operation
-net2Min.h5 - keras model for server operation
-MyPythonOptimizExpert_MT4.set - parameter file for MT4 Expert Advisor
-JAson.mqh - JSON library file
-ZmqRpc.mqh – file containing ZmqRpc classes for the Advisor
-PythonOptimizExpert_zmq.ex5 - Expert Advisor executable for MT5
-PythonOptimizExpert_zmq.ex4 - Expert Advisor executable for MT4
-PythonOptimizExpert_zmq.mq5 - the source file of the Expert Advisor for MT5
-PythonOptimizExpert_zmq.mq4 - source file of the Expert Advisor for MT4
-Include\Mql\Lang\Native.mqh – corrected MQL-ZMQ file
+1.  server_ZMQ_tf.py – ZMQ_RPC server
+2.  MethodHandler.py – ZMQ_RPC server module
+3.  net1Max.h5 - keras model for server operation
+4.  net1Min.h5 - keras model for server operation
+5.  net2Max.h5 - keras model for server operation
+6.  net2Min.h5 - keras model for server operation
+7.  MyPythonOptimizExpert_MT4.set - parameter file for MT4 Expert Advisor
+8.  JAson.mqh - JSON library file
+9.  ZmqRpc.mqh – file containing ZmqRpc classes for the Advisor
+10. PythonOptimizExpert_zmq.ex5 - Expert Advisor executable for MT5
+11. PythonOptimizExpert_zmq.ex4 - Expert Advisor executable for MT4
+12. PythonOptimizExpert_zmq.mq5 - the source file of the Expert Advisor for MT5
+13. PythonOptimizExpert_zmq.mq4 - source file of the Expert Advisor for MT4
+14. Include\Mql\Lang\Native.mqh – corrected MQL-ZMQ file
 
 HOWTO
 1. Download and install Python version >= 3.8 (the specified version is needed for tensorflow 2.X)
