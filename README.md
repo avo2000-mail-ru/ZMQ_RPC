@@ -13,12 +13,13 @@ Description of the files:
 5.  net2Max.h5 - keras model for server operation
 6.  net2Min.h5 - keras model for server operation
 7.  MyPythonOptimizExpert_MT4.set - parameter file for MT4 Expert Advisor
-8.  JAson.mqh - JSON library file
-9.  ZmqRpc.mqh – file containing ZmqRpc classes for the Advisor
-10. PythonOptimizExpert_zmq.ex5 - Expert Advisor executable for MT5
-11. PythonOptimizExpert_zmq.ex4 - Expert Advisor executable for MT4
-12. PythonOptimizExpert_zmq.mq5 - the source file of the Expert Advisor for MT5
-13. PythonOptimizExpert_zmq.mq4 - source file of the Expert Advisor for MT4
+8.  MyPythonOptimizExpert_MT5.set - parameter file for MT5 Expert Advisor
+9.  JAson.mqh - JSON library file
+10.  ZmqRpc.mqh – file containing ZmqRpc classes for the Advisor
+11. PythonOptimizExpert_zmq.ex5 - Expert Advisor executable for MT5
+12. PythonOptimizExpert_zmq.ex4 - Expert Advisor executable for MT4
+13. PythonOptimizExpert_zmq.mq5 - the source file of the Expert Advisor for MT5
+14. PythonOptimizExpert_zmq.mq4 - source file of the Expert Advisor for MT4
 14. Include\Mql\Lang\Native.mqh – corrected MQL-ZMQ file
 
 HOWTO
@@ -31,4 +32,4 @@ HOWTO
 7. Make the selected folder current in the Windows command prompt
 8. Start the server with the command in the Windows command prompt with the command: python server_ZMQ_tf.py
 9. Open the strategy tester in the MT5 terminal. Run a single test of the PythonOptimizExpert_zmq.ex5 Expert Advisor on EURUSD, 1H, load the test parameters from the MyPythonOptimizExpert_MT5.set
-10 file. Open the strategy tester in the MT4 terminal. Run a single test of the PythonOptimizExpert_zmq.ex4 Expert Advisor on EURUSD, 1H, load the test parameters from the MyPythonOptimizExpert_MT4.set file
+10. file. Open the strategy tester in the MT4 terminal. Run a single test of the PythonOptimizExpert_zmq.ex4 Expert Advisor on EURUSD, 1H, load the test parameters from the MyPythonOptimizExpert_MT4.set file
