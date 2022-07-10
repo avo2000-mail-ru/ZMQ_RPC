@@ -31,5 +31,5 @@ HOWTO
 6. Copy the project files to the selected folder.
 7. Make the selected folder current in the Windows command prompt
 8. Start the server with the command in the Windows command prompt with the command: python server_ZMQ_tf.py
-9. Open the strategy tester in the MT5 terminal. Run a single test of the PythonOptimizExpert_zmq.ex5 Expert Advisor on EURUSD, 1H, load the test parameters from the MyPythonOptimizExpert_MT5.set
-10. file. Open the strategy tester in the MT4 terminal. Run a single test of the PythonOptimizExpert_zmq.ex4 Expert Advisor on EURUSD, 1H, load the test parameters from the MyPythonOptimizExpert_MT4.set file
+9. Open the strategy tester in the MT5 terminal. Run a single test of the PythonOptimizExpert_zmq.ex5 Expert Advisor on EURUSD, 1H, load the test parameters from the MyPythonOptimizExpert_MT5.set file. 
+10. Open the strategy tester in the MT4 terminal. Run a single test of the PythonOptimizExpert_zmq.ex4 Expert Advisor on EURUSD, 1H, load the test parameters from the MyPythonOptimizExpert_MT4.set file.
